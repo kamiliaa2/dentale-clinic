@@ -1,0 +1,17 @@
+.icons1 {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: flex-end;
+}
+.icons1 a{
+    color: white;
+}
+
+.icon1 {
+    height: 40px; 
+    width: 40px; 
+}
+

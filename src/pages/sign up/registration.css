@@ -1,0 +1,153 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.registration-page-ktb2 {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #38A0C1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.left-container-ktb2  {
+  display: flex;
+  width: 36%;
+  justify-content: center;
+    align-items: center;
+    padding: 44px;
+    font-size: 15px;
+    width: 36%;
+    text-align: center;
+    text-shadow: 0 0 rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-wrap: pretty;
+    text-transform: math-auto;
+    color: #fff;
+}
+.right-container-ktb2  {
+  width: 100%;
+  padding: 28px;
+    background: #ffffff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+.title-ktb2  {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  height: 37px;
+}
+.user-details-ktb2  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px 0px;
+}
+.ac-ktb2  {
+  padding-left: 65px;
+}
+.input-box-ktb2  ,
+.category-ktb2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 10px ;
+}
+.category-ktb2  {
+  width: 40%;
+}
+.input-box:nth-child(2n){
+  justify-content: end;
+}
+.input-box-ktb2  label,
+.gendre-title-ktb2 ,
+.account-type-ktb2  {
+  width: 95%;
+  color: #2f4f4f;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.gendre-title-ktb2 ,
+.account-type-ktb2 
+{
+  font-size: 12px;
+}
+.input-box-ktb2  input {
+  height: 43px;
+  width: 95%;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #eee;
+}
+.sous-title-ktb2  {
+  font-size: 14px;
+  font-weight: 700;
+}
+.input-box-ktb2  input:is(:focus, :valid){
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+form {
+  width: 500px;
+}
+.button-contain-ktb2 ,
+.loging-container-ktb2 {
+  display: flex;
+  justify-content: center;
+}
+.category-ktb2  label {
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 11.5px;
+}
+.account-type-ktb2 ,
+.gendre-title-ktb2  {
+  padding-bottom: 5px;
+}
+
+ form button[type="submit"] {
+  padding: 7px 20px;
+  background-color: #003465  ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+}
+
+form button[type="submit"]:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #38A0C1;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+
+}
+.loging-container-ktb2  p {
+  padding-top: 11px;
+  color: #535353;
+  font: menu;
+  padding-right: 5px;
+}
+.loging-container-ktb2  a {
+  text-decoration: none;
+}
+.button-contain-ktb2  {
+  margin-top: 25px;
+}
