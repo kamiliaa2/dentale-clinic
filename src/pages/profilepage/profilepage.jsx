@@ -1,19 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Profile from './profile/profile'
-
-
+import Profile from "./profile/profile";
 
 function Profilepage() {
- 
   return (
-    <div >
-    
-    <Profile/>
-  
-    
+    <div>
+      <Profile />
     </div>
-  )
+  );
 }
 
-export default Profilepage
+export default Profilepage;

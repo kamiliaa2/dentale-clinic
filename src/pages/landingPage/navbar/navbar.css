@@ -1,0 +1,113 @@
+/* navbar styes  */
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-top {
+  background-color: #448ba1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+.navbar-top .contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+.navbar-top .contact .phone-icon {
+  font-size: 1.5rem;
+}
+.navbar-top .socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+.navbar-container .navbar-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin-top: 40px;
+  border-top: 1px solid #194452;
+}
+.navbar-container .navbar-down .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs li {
+  position: relative;
+  display: inline-block;
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs li::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #448ba1;
+  transition: width 0.3s;
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs li:hover::after {
+  width: 100%;
+  color: #448ba1;
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs a {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.2s;
+ 
+}
+.navbar-container .navbar-down .navbar-right .navbar-navs a:hover {
+  color: #448ba1;
+ 
+  
+}
+.navbar-container .navbar-down .navbar-right .btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+}
+.navbar-container .navbar-down .navbar-right .btns .log-in {
+  color: white;
+  background-color: #448ba1;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+ 
+}
+.navbar-container .navbar-down .navbar-right .btns .sign-up {
+  color: #448ba1;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border:  1px solid #448ba1;
+  width: 100px;
+
+ 
+}
+.navbar-container .navbar-down .navbar-right .btns .log-in:hover {
+  color: white;
+  background-color:#448ba1;
+  box-shadow: 0 0 20px #448ba1;
+  
+}
+.navbar-container .navbar-down .navbar-right .btns .sign-up:hover {
+  color: #448ba1;
+  background-color: white;
+  border: 1px solid #448ba1;
+  box-shadow: 0 0 20px #448ba1;
+}

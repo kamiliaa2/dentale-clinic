@@ -1,0 +1,143 @@
+.hero-container {
+  background-image: url("../../../public/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100dvh - 80px);
+  position: relative;
+  padding: 50px 0 0 80px;
+
+  align-items: center;
+}
+.hero-container .title-container {
+  padding: 40px;
+  background-color: #448ba177;
+  border-radius: 3px 0px 0px 150px;
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  font-family: 'Plus Jakarta Sans';
+  height:300px;
+}
+
+.hero-container .title-container h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Plus Jakarta Sans';
+}
+.hero-container .title-container h2 {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+.hero-container .title-container a {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  color:  #448ba1;
+  border: none;
+  font-weight: bolder;
+  border-radius:0 55px 55px 55px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  border: 1px solid #448ba1;
+}
+.hero-container .title-container a:hover {
+  background-color:#448ba1;
+  color:#fff;
+  box-shadow: 0 0 20px #448ba1;
+ 
+  
+}
+.paragraphe{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(54, 64, 91, 1);
+  margin-top: 25px;
+  font-family: 'Plus Jakarta Sans';
+  width: 35%;
+  margin-left: 100px;
+  text-align: center;
+}
+.hero-container .title-container p {
+  font-size: 1rem;
+  color: var(--secondary-blue);
+  font-family: 'Plus Jakarta Sans';
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.hero-container .cards {
+  position: absolute;
+  bottom: -150px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: 'Plus Jakarta Sans';
+}
+.hero-container .cards .card:first-child {
+  border-radius: 130px 10px 10px 10px;
+}
+.hero-container .cards .card:last-child {
+  border-radius: 10px 10px 130px 10px;
+}
+.hero-container .cards .card {
+  background-color: rgba(229, 229, 229, 1);
+  padding: 20px;
+  margin: 1px;
+  display: flex;
+  border-radius:10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 390px;
+  font-family: 'Plus Jakarta Sans';
+}
+.hero-container .cards .card:hover{
+  box-shadow: 0 10px 15px 
+  #399FBF;
+  transform: scale(1.02);
+}
+.hero-container .cards .card h3 {
+  font-size: 1.2rem;
+  color: var(--primary-blue);
+}
+.hero-container .cards .card p {
+  font-size: 1rem;
+  color: var(--secondary-blue);
+  text-align: center;
+}
+.hero-container .cards .card a {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #448ba1;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 0px 100px 100pX  100px;
+}
+.hero-container .cards .card a:hover {
+  background-color: #dfdfdfd7;
+  color: #448ba1;
+}
+.hero-container .cards .card .card-icon {
+  color: #fff;
+  background-color: #448ba1;
+  font-size: 3rem;
+  padding: 6px;
+  border-radius: 100px;
+}

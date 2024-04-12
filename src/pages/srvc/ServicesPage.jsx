@@ -7,7 +7,7 @@
 import './services.css'
 const ServicesPage = () => {
   return (
-    <div className="services-page-ktb3">
+    <div className="services-page-ktb3" id='services'>
     <div className="container-ktb3">
     <div className="left-container-ktb3">
     <div className="infos-ktb3">
