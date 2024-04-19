@@ -1,5 +1,5 @@
 
-.cont{
+.cont-cnt{
 
     height:  376px;
     width: auto;
@@ -10,63 +10,63 @@
     align-items: center;
     position: relative;
 }
-.ct1{
+.ct1-cnt{
     height: 100%;
 }
-.ct1 p span,pre {
+.ct1-cnt p span,pre {
     color: #12E3F0;
 font-family: inter;
 }
-.ct1 pre{
+.ct1-cnt pre{
 position: absolute;
     font-size: 14px;
-    bottom: 0px;
+    bottom: 20px;
 }
-.dentel {
+.dentel-cnt {
 font-size: 24px;
 }
-.dentel span{
+.dentel-cnt span{
     font-size: 24px;
 
 }
-.ctt-mail span,p{
+.ctt-mail-cnt span,p{
 font-family: Montserrat;
 font-size: 32px;
 margin: 0;
 }
-.contactt{
+.contactt-cnt{
     color: white;
 font-weight: 600;
 }
-.mail a{
+.mail-cnt a{
     font-weight: 250;
 text-decoration: none;
 color: white;
 }
-.mail a:hover{
+.mail-cnt a:hover{
     
 color: rgba(255, 255, 255, 0.333);
 }
 
-.ctt-mail{
+.ctt-mail-cnt{
     line-height: 38.4px;
     height: auto;
     position: relative;
     width: auto;
 }
 
-.dtc{
+.dtc-cnt{
     height:80px ;
     line-height: 33.6px;
 margin-top: 50px;
 }
-.ct2{
+.ct2-cnt{
     height: auto;
     display: flex;
 width: 30%;
 justify-content: space-between;
 }
-.txt span{
+.txt-cnt span{
     font-weight: 700;
     font-family: Montserrat;
     font-size: 32px;

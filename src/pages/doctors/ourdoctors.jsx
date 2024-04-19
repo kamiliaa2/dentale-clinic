@@ -4,8 +4,8 @@ import './ourdoctors.css'
 const Ourdoctors = () => {
     return (
       
-            <div className="all">
-     <h1>Crafting Smiles, Building Confidence<br />
+            <div className="all-odct" >
+     <h1 >Crafting Smiles, Building Confidence<br />
  Meet The Expertise <br />
 Behind Your Dental Wellness!
 </h1>

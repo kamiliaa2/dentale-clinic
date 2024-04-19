@@ -3,31 +3,32 @@ body {
   height: 100vh;
   width: 100%;
 }
-.alll {
+.alll-lg {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.left,
-.right {
+.left-lg,
+.right-lg {
   height: 100vh;
   width: 50%;
   display: flex;
   justify-content: space-around;
   font-family: Poppins;
 }
-.right {
+.right-lg {
   background-color: #38a0c1;
   align-items: center;
+  font-family: poppins;
 }
-.left {
-  background-image: url(C:\Users\NetinfoTALI\Desktop\project\public\image.png);
+.left-lg {
+  background-image: url(C:\Users\HP\Desktop\dentale-clinic\public\image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
 }
-.left h2 {
+.left-lg h2 {
   color: white;
   font-size: 40px;
   text-shadow: 0px 4px 0 rgba(0, 0, 0, 0.67);
@@ -35,7 +36,7 @@ body {
   text-align: center;
   margin-left: 10px;
 }
-.login {
+.login-lg {
   background-color: #ffffff;
   height: 480px;
   width: 450px;
@@ -45,22 +46,22 @@ body {
   padding: 10px;
 }
 
-.text2 h3 {
+.text2-lg h3 {
   font-size: 30px;
   margin-bottom: 0;
   margin-top: 30px;
 }
-.text2 p {
+.text2-lg p {
   font-size: 15px;
   margin-top: 0;
   color: #555555;
 }
-.inp {
+.inp-lg {
   height: 300px;
   display: flex;
   flex-direction: column;
 }
-.input1 {
+.input1-lg {
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -70,7 +71,7 @@ body {
   margin-right: 30px;
   margin-top: 30px;
 }
-.input2 {
+.input2-lg {
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -86,13 +87,13 @@ input {
   border: 1px solid rgba(0, 0, 0, 0.359);
   padding: 10px;
 }
-.btn11 {
+.btn11-lg {
   height: 50px;
   margin-top: 30px;
 }
 
-.btn11.cnx {
-  width: 390px;
+.cnx-lg {
+  width: 350px;
   height: 35px;
   border-radius: 10px;
   border: none;
@@ -100,22 +101,27 @@ input {
   font-family: Poppins;
   font-size: 20px;
 }
-.btn11.cnx:hover {
+.cnx-lg b{
+  color: #ffffff;
+  font-family: poppins;
+
+}
+.cnx-lg:hover {
   background-color: #003465f2;
   scale: 1.01;
 }
-.sign-up {
+.sign-up-lg {
   color: #a0a0a0;
 }
 
-.sign-up p {
+.sign-up-lg p {
   font-size: 15px;
 }
-.sign-up a {
+.sign-up-lg a {
   color: #003465;
   text-decoration: none;
 }
-.sign-up a:hover {
+.sign-up-lg a:hover {
   color: #003465ad;
   text-decoration: underline;
 }

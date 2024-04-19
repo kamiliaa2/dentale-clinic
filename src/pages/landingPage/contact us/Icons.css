@@ -1,4 +1,4 @@
-.icons1 {
+.icons1-cnt {
     height: auto;
     width: 50%;
     display: flex;
@@ -6,11 +6,11 @@
     gap: 20px;
     align-items: flex-end;
 }
-.icons1 a{
+.icons1-cnt a{
     color: white;
 }
 
-.icon1 {
+.icon1-cnt {
     height: 40px; 
     width: 40px; 
 }

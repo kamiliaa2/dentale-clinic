@@ -18,7 +18,7 @@ const ServicesSection = () => {
           </div>
           <div className="icons-ktb3">
             <div className="icon-ktb3">
-              <img src="/services-pctrs/Frame 13521.svg" alt="" />
+              <img src="/Frame 13521.svg" alt="" />
               <div className="tex-ktb3">
                 <p className="titl-ktb3">Satisfied Patient Services</p>
                 <p className="discreption-ktb3">
@@ -27,7 +27,7 @@ const ServicesSection = () => {
               </div>
             </div>
             <div className="icon-ktb3">
-              <img src="/services-pctrs/Frame 13522.svg" alt="" />
+              <img src="/Frame 13522.svg" alt="" />
               <div className="tex-ktb3">
                 <p className="titl-ktb3">Support Customer Manager</p>
                 <p className="discreption-ktb3">
@@ -36,7 +36,7 @@ const ServicesSection = () => {
               </div>
             </div>
             <div className="icon-ktb3">
-              <img src="/services-pctrs/Frame 13523.svg" alt="" />
+              <img src="/Frame 13523.svg" alt="" />
               <div className="tex-ktb3">
                 <p className="titl-ktb3">Dedicated & Expert Doctors</p>
                 <p className="discreption-ktb3">
@@ -45,7 +45,7 @@ const ServicesSection = () => {
               </div>
             </div>
             <div className="icon-ktb3">
-              <img src="/services-pctrs/Frame 13524.svg" alt="" />
+              <img src="/Frame 13524.svg" alt="" />
               <div className="tex-ktb3">
                 <p className="titl-ktb3">Regularly Patients inspection</p>
                 <p className="discreption-ktb3">
@@ -57,7 +57,7 @@ const ServicesSection = () => {
         </div>
         <div className="services-image-ktb3">
           <img
-            src="/services-pctrs/wepik-export-20240223153106FhKk 1.png"
+            src="/wepik-export-20240223153106FhKk 1.png"
             alt="Services"
           />
         </div>

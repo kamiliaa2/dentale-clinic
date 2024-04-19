@@ -1,7 +1,7 @@
 import React from "react";
 
 import Ratingpage from "./rating/Ratingpage";
-import Doctors from "./doctors/Doctors";
+import Ourdoctors from "./doctors/ourdoctors";
 import ContactUs from "./contact us/contact-us";
 import NavBar from "./navbar/NavBar";
 import Hero from "./hero/Hero";
@@ -15,7 +15,7 @@ const LandingPage = () => {
       <Hero />
       <AboutusSection />
       <ServicesSection />
-      <Doctors />
+      <Ourdoctors />
       <Ratingpage />
       <ContactUs />
     </main>

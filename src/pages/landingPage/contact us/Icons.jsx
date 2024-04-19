@@ -5,15 +5,15 @@ import { FaTwitter } from "react-icons/fa";
 import "./Icons.css";
 const Icons = () => {
   return (
-    <div className="icons1">
+    <div className="icons1-cnt">
       <a href="https://www.facebook.com">
-        <FaFacebook className="icon1" />
+        <FaFacebook className="icon1-cnt" />
       </a>
       <a href="https://www.instagram.com">
-        <FaInstagram className="icon1" />
+        <FaInstagram className="icon1-cnt" />
       </a>
       <a href="https://twitter.com">
-        <FaTwitter className="icon1" />
+        <FaTwitter className="icon1-cnt" />
       </a>
     </div>
   );

@@ -3,21 +3,21 @@ import "./login.css";
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className="alll" id="#appoinetement">
-      <div className="left">
+    <div className="alll-lg" id="#appoinetement">
+      <div className="left-lg">
         <h2>
           Thank you for <br /> choosing us to <br /> take care of your <br />{" "}
           smile!
         </h2>
       </div>
-      <div className="right">
-        <div className="login">
-          <div className="text2">
+      <div className="right-lg">
+        <div className="login-lg">
+          <div className="text2-lg">
             <h3>login</h3>
             <p>login into your account</p>
           </div>
-          <div className="inp">
-            <div className="input1">
+          <div className="inp-lg">
+            <div className="input1-lg">
               <label htmlFor="email">enter your email</label>
               <input
                 type="email"
@@ -25,18 +25,18 @@ const Login = () => {
                 placeholder="username@gmail.com"
               />
             </div>
-            <div className="input2">
+            <div className="input2-lg">
               <label htmlFor="password">enter your password</label>
               <input type="password" name="password" placeholder="Password" />
             </div>
-            <div className="btn11">
+            <div className="btn11-lg">
               <Link to="/profile">
-                <button className="cnx">
+                <button className="cnx-lg">
                   <b>Login</b>
                 </button>
               </Link>
             </div>
-            <div className="sign-up">
+            <div className="sign-up-lg">
               <p>
                 Doesn’t have an account? Sign up{" "}
                 <Link to={"/signup"}>Sign up</Link>

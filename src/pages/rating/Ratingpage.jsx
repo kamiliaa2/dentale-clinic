@@ -55,7 +55,7 @@ const Ratingpage = () => {
       <div className="flex-wave-ktb1">
       <div className="comment-container-ktb1">
       <img className="comment-icon-ktb1" alt="" src="/rating-pctrs/Group 106.svg" />
-        <input type="text" placeholder="write a comment.." />
+        <input  type="text" placeholder="write a comment.." />
       </div>
       <img className="vector-icon-ktb1" alt="" src="/rating-pctrs/Vector.svg" />
       </div>

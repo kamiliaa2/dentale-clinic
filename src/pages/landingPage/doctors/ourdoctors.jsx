@@ -4,7 +4,7 @@ import './ourdoctors.css'
 const Ourdoctors = () => {
     return (
       
-            <div className="all" id='our-doctors' >
+            <div className="all-odct" id="our-doctors" >
      <h1>Crafting Smiles, Building Confidence<br />
  Meet The Expertise <br />
 Behind Your Dental Wellness!
